@@ -11,6 +11,11 @@ body {
 	-webkit-text-size-adjust: 100%;
 }
 
+.total {
+	margin: 0 auto 0 auto;
+	max-width: 1300px;
+}
+
 #main {
     padding-left: 25px;
     padding-right: 25px;
@@ -26,9 +31,14 @@ body {
 	line-height: 1.9;
 }
 
-#main .myres {
-	background-color: rgb(245,245,245);
-	padding: 100px;
+#main a {
+	color: orangered;
+	text-decoration: none;
+}
+
+#main a:visited {
+	color: orangered;
+	text-decoration: none;
 }
 
 img.rayong01 {
@@ -46,7 +56,7 @@ img.rayong01 {
 	padding: 25px 100px 25px 100px;
 }
 
-#main.publication {
+#main .welcome {
 	padding-top: 30px;
 }
 
@@ -54,15 +64,6 @@ img.rayong01 {
 	color: rgb(50, 50, 50);
 	font-size: 200%;
 	margin-bottom: .7em;
-	margin-top: 60px;
-}
-
-.journal {
-	font-style: italic;
-}
-
-.co-author {
-	text-decoration: underline;
 }
 
 #main p {
@@ -160,7 +161,7 @@ img.rayong01 {
 	height: 2px;
 	left: 0;
 	display: block;
-	background: #033560;
+	background: #333;
 	position: absolute;
 	-webkit-transition: .35s ease-in-out;
 	-moz-transition: .35s ease-in-out;
@@ -227,6 +228,7 @@ img.rayong01 {
 		padding-left: 40px;
 	}
 }
+
 
 @media screen and (max-width: 900px) {
 	#main-in {
