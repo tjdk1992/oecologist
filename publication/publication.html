@@ -9,97 +9,97 @@
 <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 </head>
 <body>
+	<div class="total">
+		<header id="global-head">
+		    <h1 id="Researcher">Daiki Tomojiri</h1>
+		    <p>Center for Southeast Asian Area Studies
+			<br>Kyoto University
+			<br>and
+			<br>Field Science Education and Research Center
+			<br>Kyoto University
+		    </p>
+		</header>
 
-<header id="global-head">
-    <h1 id="Researcher">Daiki Tomojiri</h1>
-    <p>Center for Southeast Asian Area Studies
-        <br>Kyoto University
-        <br>and
-        <br>Field Science Education and Research Center
-        <br>Kyoto University
-    </p>
-</header>
+		<div id="nav-toggle">
+			<div>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
 
-<div id="nav-toggle">
-	<div>
-		<span></span>
-		<span></span>
-		<span></span>
+		<aside id="sidebar">
+			<nav id="global-nav">
+				<ul>
+			    <li><a href="../index.html">Welcome</a></li>
+			    <li><a href="publication.html"><strong>Publication</strong></a></li>
+			    <li><a href="../pdf/My_CV.pdf">Current CV</a></li>
+					<li><a href="../fieldwork/fieldwork.html">Fieldwork</a></li>
+					<li><a href="../gallery/gallery.html">Gallery</a></li>
+				</ul>
+			</nav>
+			<div class="socialmedia">
+				<p><a href="https://www.linkedin.com/in/daiki-tomojiri/"><i class="fab fa-linkedin fa-lg"></i></a></p>
+				<p><a href="https://www.researchgate.net/profile/Daiki_Tomojiri"><i class="fab fa-researchgate fa-lg"></i></a></p>
+				<p><a href="https://twitter.com/JeeRee16"><i class="fab fa-twitter fa-lg"></i></a></p>
+				<p><a href="https://medium.com/@tmjdk"><i class="fab fa-medium fa-lg"></i></a></p>
+			</div>
+		</aside>
+
+		<main id="main">
+			<div id="main-in">
+				<section class="publication">
+					<h1>Publication</h1>
+					<p class="imgcap"><img src="../img/rayong_landscape_01.jpeg" class="rayong01"><br>OLYMPUS E-M5 Mark-Ⅱ with M.ZUIKO DIGITAL 12 – 50 mm @ Distributing reservoir, Rayong, Thailand</p>
+					<h2>2021</h2>
+					<div class="paperlist">
+						<p>Tomojiri, D., Musikasinthorn, P., & Iwata, A. (2021). Utilization and economic importance of native and non-native freshwater fishes in the lowermost Chao Phraya River basin, Thailand. <span class="journal">Wildlife and Human Society</span>, in press. (journal article written in Japanese, English Abstract is <span><a href="../pdf/Tomojiri.D_2021[Wildlife and Human Society]Abstract_Utilization and economic importance of native and non-native freshwater fishes in the lowermost Chao Phraya River basin, Thailand.pdf">available</a></span>)</p>
+					</div>
+					<h2>2020</h2>
+					<div class="paperlist">
+						<p>Sai, A., Furusawa, T., Othman, M. Y., Zaini, W. F. Z. W., Tan, C. S. Y., Norzilan, N. I. M., & <span class="co-author">Tomojiri, D.</span> (2020). Sociocultural factors affecting muscularity among male college students in Malaysia. <span class="journal">Heliyon</span>, 6: e04414. (journal article) <span><a href="../pdf/Sai.A_2020[Heliyon]_Sociocultural factors affecting drive for muscularity among male college students in Malaysia.pdf">pdf</a></span></p>
+					</div>
+					<h2>2019</h2>
+					<div class="paperlist">
+						<p>Tomojiri, D., Musikasinthorn, P., & Iwata, A. (2019). Food habits of three non-native cichlid fishes in the lowermost Chao Phraya River basin, Thailand. <span class="journal">Journal of Freshwater Ecology</span>, 34(1): 419-432. (journal article) <span><a href="../pdf/Tomojiri.D_2019[Journal of Freshwater Ecology]_Food habits of three non-native cichlid fishes in the lowermost Chao Phraya River basin, Thailand.pdf">pdf</a></span></p>
+					</div>
+					<h2>2018</h2>
+					<div class="paperlist">
+						<p>Sai, A., Othman, M. Y., Zaini, W. F. Z. W., Tan, C. S. Y., Norzilan, N. I. M., <span class="co-author">Tomojiri, D.</span>, & Furusawa, T. (2018). Factors affecting body image perceptions of female college students in urban Malaysia. <span class="journal">Obesity Medicine</span>, 11: 13-19. (journal article)</p>
+					</div>
+					<h2>2017</h2>
+					<div class="paperlist">
+						<p>Tomojiri, D. (2017). Biodiversity as seen from the relationship between people and fish in Thailand. <span class="journal">Asian and African Area Studies</span>, 17(1): 149-152. (journal note written in Japanese)</p>
+					</div>
+				</section>
+				<footer>
+					<p id="copyright">&copy; Copyright 2020 Daiki Tomojiri All rights reserved.</p>
+				</footer>
+			</div><!-- /#main-in -->
+		</main>
+
+		<div id="overlay"></div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+		<script type="text/javascript">
+		(function($) {
+		    $(function () {
+			$('.sub-menu').on({
+			    'mouseenter': function () {
+				$(this).addClass('is-active');
+			    },
+			    'mouseleave': function () {
+				$(this).removeClass('is-active');
+			    }
+			});
+
+
+			$('#nav-toggle,#overlay').on('click', function() {
+			    $('body').toggleClass('open');
+			});
+		    });
+		})(jQuery);
+		</script>
 	</div>
-</div>
-
-<aside id="sidebar">
-	<nav id="global-nav">
-		<ul>
-            <li><a href="../index.html">Welcome</a></li>
-            <li><a href="publication.html"><strong>Publication</strong></a></li>
-            <li><a href="../pdf/My_CV.pdf">Current CV</a></li>
-			<li><a href="../fieldwork/fieldwork.html">Fieldwork</a></li>
-			<li><a href="../gallery/gallery.html">Gallery</a></li>
-		</ul>
-	</nav>
-	<div class="socialmedia">
-		<p><a href="https://www.linkedin.com/in/daiki-tomojiri/"><i class="fab fa-linkedin fa-lg"></i></a></p>
-		<p><a href="https://www.researchgate.net/profile/Daiki_Tomojiri"><i class="fab fa-researchgate fa-lg"></i></a></p>
-		<p><a href="https://twitter.com/JeeRee16"><i class="fab fa-twitter fa-lg"></i></a></p>
-		<p><a href="https://medium.com/@tmjdk"><i class="fab fa-medium fa-lg"></i></a></p>
-	</div>
-</aside>
-
-<main id="main">
-	<div id="main-in">
-		<section class="publication">
-			<h1>Publication</h1>
-			<p class="imgcap"><img src="../img/rayong_landscape_01.jpeg" class="rayong01"><br>OLYMPUS E-M5 Mark-Ⅱ with M.ZUIKO DIGITAL 12 – 50 mm @ Distributing reservoir, Rayong, Thailand</p>
-			<h2>2021</h2>
-			<div class="paperlist">
-				<p>Tomojiri, D., Musikasinthorn, P., & Iwata, A. (2021). Utilization and economic importance of native and non-native freshwater fishes in the lowermost Chao Phraya River basin, Thailand. <span class="journal">Wildlife and Human Society</span>, in press. (journal article written in Japanese, English Abstract is <span><a href="../pdf/Tomojiri.D_2021[Wildlife and Human Society]Abstract_Utilization and economic importance of native and non-native freshwater fishes in the lowermost Chao Phraya River basin, Thailand.pdf">available</a></span>)</p>
-			</div>
-			<h2>2020</h2>
-			<div class="paperlist">
-				<p>Sai, A., Furusawa, T., Othman, M. Y., Zaini, W. F. Z. W., Tan, C. S. Y., Norzilan, N. I. M., & <span class="co-author">Tomojiri, D.</span> (2020). Sociocultural factors affecting muscularity among male college students in Malaysia. <span class="journal">Heliyon</span>, 6: e04414. (journal article) <span><a href="../pdf/Sai.A_2020[Heliyon]_Sociocultural factors affecting drive for muscularity among male college students in Malaysia.pdf">pdf</a></span></p>
-			</div>
-			<h2>2019</h2>
-			<div class="paperlist">
-				<p>Tomojiri, D., Musikasinthorn, P., & Iwata, A. (2019). Food habits of three non-native cichlid fishes in the lowermost Chao Phraya River basin, Thailand. <span class="journal">Journal of Freshwater Ecology</span>, 34(1): 419-432. (journal article) <span><a href="../pdf/Tomojiri.D_2019[Journal of Freshwater Ecology]_Food habits of three non-native cichlid fishes in the lowermost Chao Phraya River basin, Thailand.pdf">pdf</a></span></p>
-			</div>
-			<h2>2018</h2>
-			<div class="paperlist">
-				<p>Sai, A., Othman, M. Y., Zaini, W. F. Z. W., Tan, C. S. Y., Norzilan, N. I. M., <span class="co-author">Tomojiri, D.</span>, & Furusawa, T. (2018). Factors affecting body image perceptions of female college students in urban Malaysia. <span class="journal">Obesity Medicine</span>, 11: 13-19. (journal article)</p>
-			</div>
-			<h2>2017</h2>
-			<div class="paperlist">
-				<p>Tomojiri, D. (2017). Biodiversity as seen from the relationship between people and fish in Thailand. <span class="journal">Asian and African Area Studies</span>, 17(1): 149-152. (journal note written in Japanese)</p>
-			</div>
-		</section>
-		<footer>
-			<p id="copyright">&copy; Copyright 2020 Daiki Tomojiri All rights reserved.</p>
-		</footer>
-	</div><!-- /#main-in -->
-</main>
-
-<div id="overlay"></div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
-<script type="text/javascript">
-(function($) {
-    $(function () {
-        $('.sub-menu').on({
-            'mouseenter': function () {
-                $(this).addClass('is-active');
-            },
-            'mouseleave': function () {
-                $(this).removeClass('is-active');
-            }
-        });
-
-
-        $('#nav-toggle,#overlay').on('click', function() {
-            $('body').toggleClass('open');
-        });
-    });
-})(jQuery);
-</script>
-
 </body>
 </html>
