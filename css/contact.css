@@ -51,6 +51,11 @@ img.nature, img.culture {
 	font-size: 10px;
 }
 
+iframe {
+	width: 100%;
+	aspect-ratio: 3/2;
+}
+
 #main section {
 	background-color: rgb(245, 245, 245);
 	padding: 25px 100px 25px 100px;
