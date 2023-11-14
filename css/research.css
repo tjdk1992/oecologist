@@ -237,6 +237,10 @@ img {
 
 
 @media screen and (max-width: 900px) {
+	#main section {
+		padding: 25px 25px 25px 25px;
+	}
+	
 	#main-in {
 		padding-left: 0;
 	}
