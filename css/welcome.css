@@ -234,6 +234,10 @@ img.rayong01 {
 
 
 @media screen and (max-width: 900px) {
+	#main section {
+		padding: 25px 25px 25px 25px;
+	}
+	
 	#main-in {
 		padding-left: 0;
 	}
@@ -318,10 +322,6 @@ img.rayong01 {
 }
 
 @media screen and (max-width: 400px) {
-	#main section {
-		padding: 5px 5px 5px 5px;
-	}
-
 	#sidebar {
 		right: -200px;
 		width: 200px;
