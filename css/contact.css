@@ -255,6 +255,10 @@ iframe {
 		padding-left: 0;
 	}
 
+	.imgcap {
+		display: none;
+	}
+
 	#global-head {
 		width: 100%;
 		padding: 25px;
