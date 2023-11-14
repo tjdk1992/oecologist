@@ -237,6 +237,10 @@ img {
 
 
 @media screen and (max-width: 900px) {
+	#main {
+		padding-top: 160px;
+	}
+
 	#main section {
 		padding: 25px 25px 25px 25px;
 	}
@@ -269,10 +273,6 @@ img {
 		background: #fff;
 		-webkit-transition: .35s ease-in-out;
 		transition: .35s ease-in-out;
-	}
-
-	#main {
-		padding-top: 180px;
 	}
 
 	#nav-toggle {
